@@ -5,7 +5,7 @@ export default function Tentang() {
                 <div class="grid grid-cols-1 lg:grid lg:grid-cols-2 justify-between lg:gap-12">
                     <div class="text-information ">
                         <h1 class="text-5xl font-extrabold tracking-tight leading-none text-white mb-8 md:text-5xl lg:text-6xl text-left">Mengenal KalkuFit</h1>
-                        <p className="mb-8 text-xl font-normal text-left text-gray-100 lg:text-xl">
+                        <p className="mb-8 text-xl font-normal text-left text-gray-100 lg:text-xl sm:text-sm">
                             KalkuFit adalah platform kesehatan berbasis website yang membantu pengguna memantau asupan kalori harian mereka. Dengan fitur seperti kalkulator kalori, informasi gizi, dan tips kesehatan, KalkuFit memudahkan orang untuk menjaga pola makan seimbang dan mendorong gaya hidup sehat secara berkelanjutan.                            </p>
                     </div>
                     <div class="image-information flex justify-center items-center">
