@@ -9,7 +9,7 @@ export default function Suggest({ hasil }) {
                     <p className="mt-4 text-sm text-gray-300">Gunakan angka ini untuk menyesuaikan pola makan Anda agar sesuai dengan tujuan kesehatan Anda.</p>
                 </>
             ) : (
-                <p className="text-white text-center">Isi formulir di kiri untuk melihat hasil</p>
+                <p className="text-white text-center">Isi formulir untuk melihat hasil</p>
             )}
         </div>
     );
