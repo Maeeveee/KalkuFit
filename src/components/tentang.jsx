@@ -1,6 +1,6 @@
 export default function Tentang() {
     return (
-        <section className="lg:h-[100vh] flex items-center justify-center">
+        <section className="bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] h-[100vh] lg:h-[100vh] flex items-center justify-center">
             <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 bg-green-400 rounded-3xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12 ">
                     <div className="text-information flex flex-col justify-center">
