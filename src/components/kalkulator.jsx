@@ -33,8 +33,8 @@ export default function Kalkulator({ onHitung }) {
 
     return (
         <section className="bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] flex items-center justify-center">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm p-5 dark:bg-gray-800 dark:border-gray-700">
-                <h2 className="text-2xl font-bold mb-4 text-center text-white">Kalkulator Kalori</h2>
+            <div className="max-w-2xl bg-white border border-gray-200 rounded-lg shadow-sm p-5 dark:bg-gray-800 dark:border-gray-700">
+                <h2 className="text-6xl font-bold mb-4 text-center text-white">Kalkulator Kalori</h2>
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <select value={jenisKelamin} onChange={(e) => setJenisKelamin(e.target.value)} className="w-full p-2 rounded bg-gray-700 text-white">
                         <option value="Laki-laki">Laki-laki</option>
